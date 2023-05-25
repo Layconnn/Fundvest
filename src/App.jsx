@@ -60,22 +60,22 @@ function App() {
 
       <div className="section3">
         <div className="section3__box1">
-          <div className="section3__box1__container"></div>
-          <h4 className="section3__box1__type"> 21% returns per annum</h4>
+          <img src="./image/ic.png" className="section3__box1__container" />
+          <h2 className="section3__box1__type"> 21% returns per annum</h2>
           <p className="section3__box1__message">You get a 21 percent return on your investment per annum for any plan you suscribe to</p>
         </div>
         <div className="section3__box2">
-          <div className="section3__box2__container"></div>
+          <img src="./image/ic.png" className="section3__box1__container" />
           <p className="section3__box2__type">Safe and secure website</p>
           <p className="section3__box2__message">Our website is safe and secure and you can trust that your investment is safe with us </p>
         </div>
         <div className="section3__box3">
-          <div className="section3__box3__container"></div>
+          <img src="./image/ic.png" className="section3__box1__container" />
           <p className="section3__box3__type">Sweet rates</p>
           <p className="section3__box3__message">We give you the best rates on investments that you can’t get anywhere else.</p>
         </div>
         <div className="section3__box4">
-          <div className="section3__box4__container"></div>
+          <img src="./image/ic.png" className="section3__box1__container" />
           <p className="section3__box4__type">24x7 Friendly Support</p>
           <p className="section3__box4__message">We are always available round the clock to attend to every of your needs</p>
         </div>
