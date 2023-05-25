@@ -3,6 +3,8 @@ import './App.scss';
 
 function App() {
 
+  const date = new Date();
+  const year = date.getFullYear();
   return (
     <> 
      <div className="xr">
@@ -26,8 +28,8 @@ function App() {
           <img src="./image/g5.png"  className="nav__icon__first" />
           <img src="/image/g8.png" className="nav__icon__second" />
         </div>
-  </div> 
-
+      </div> 
+ 
       <div className="section1">
         <div className="section1__first">
           <div className="section1__first__options">
@@ -39,13 +41,12 @@ function App() {
           <div className="section1__first__last">
             <div className="section1__first__last__btn">Create an Account</div>
             <p>Fascinating savings plans that give you the best returns that you can trust</p>
-            <div className="section1__first__last__btn2">Create an Account</div>
           </div>
+          <div className="section1__first__btn2">Create an Account</div>
         </div>
         <img src="./image/real.png"/>
       </div> 
 
-      
       <div className="section2">
         <div className="section2__state">
           <p className="section2__state__chat">Save with FUNDVEST</p>
@@ -56,7 +57,7 @@ function App() {
           <img src="./image/logo1.png"  />
         </div>
       </div> 
-  
+
       <div className="section3">
         <div className="section3__box1">
           <div className="section3__box1__container"></div>
@@ -78,8 +79,8 @@ function App() {
           <p className="section3__box4__type">24x7 Friendly Support</p>
           <p className="section3__box4__message">We are always available round the clock to attend to every of your needs</p>
         </div>
-      </div>
-  
+      </div> 
+
       <div className="section4">
         <div className="section4__part1">
           <div className="section4__part1__left">
@@ -102,7 +103,7 @@ function App() {
           <img src="./image/coin.png"/>
         </div>
       </div>
-  
+
       <div className="section5">
         <div className="section5__word">
           <p className="section5__word__one">We serve over 100 users in Nigeria</p>
@@ -110,7 +111,7 @@ function App() {
         </div>
         <img src="./image/big.png" />
       </div>
-      
+
       <div className="section6">
         <div className="section6__main">
           <div className="section6__main__prof"><img src="./image/profile.jpg" /></div>
@@ -124,12 +125,12 @@ function App() {
         </div>
         <p className="section6__bottom">Read More Stories</p>
       </div>
- 
+
       <div className="contact">
         <p className="contact__text">We're here to make your saving easy</p>
         <img src="./image/btn.png" />
       </div>
-       
+
        <div className="input">
           <div className="input__one">
             <p className="input__one__1st">Sign up for free.</p>
@@ -139,39 +140,39 @@ function App() {
             <input type="text" placeholder="Your email..." />
             <button>SIGN UP FOR FREE</button>
           </div>
-       </div>
-  
-
+       </div> 
        
+      
         <div className="footer">
-        <div className="footer__bottom">
-          <div className="footer__bottom__imgage">
-            <img src="./image/white.png" alt="" />
-            <p className="footer__bottom__image__gee">Fundvest is a technology platform that provides you an opportunity to saveand protect your capital and earn interest greater than the inflation rate by investing in high-return businesses in various key sectors of the economy.</p>
+          <div className="footer__bottom">
+            <div className="footer__bottom__image">
+              <img src="./image/white.png" alt="" />
+              <p className="footer__bottom__image__gee">Fundvest is a technology platform that provides you an opportunity to saveand protect your capital and earn interest greater than the inflation rate by investing in high-return businesses in various key sectors of the economy.</p>
+            </div>
+            <div className="footer__bottom__info">
+                <div className="footer__bottom__info__one">
+                  <h6>Services</h6>
+                  <p>Savings</p>
+                  <p>Dollar Savings</p>
+                  <p>Withdrawal</p>
+                </div>
+                <div className="footer__bottom__info__two">
+                  <h6>Company</h6>
+                  <p>About</p>
+                  <p>Terms & Conditions</p>
+                  <p>Disclaimer</p>
+                  <p>Privacy & Poilicy</p>
+                </div>
+                <div className="footer__bottom__info__three">
+                  <h6>Help</h6>
+                  <p>FAQ</p>
+                  <p>Support</p>
+                  <p>Contact Us</p>
+                </div>
+            </div>
           </div>
-          <div className="footer__bottom__info">
-            <div className="footer__bottom__info__one">
-              <h6>Services</h6>
-              <p>Savings</p>
-              <p>Dollar Savings</p>
-              <p>Withdrawal</p>
-            </div>
-            <div className="footer__bottom__info__two">
-              <h6>Company</h6>
-              <p>About</p>
-              <p>Terms & Conditions</p>
-              <p>Disclaimer</p>
-              <p>Privacy & Poilicy</p>
-            </div>
-            <div className="footer__bottom__info__three">
-              <h6>Help</h6>
-              <p>FAQ</p>
-              <p>Support</p>
-              <p>Contact Us</p>
-            </div>
-          </div>
+            <p className="footer__text">Developed in Nigeria with love &copy; {year}</p>
         </div>
-      </div>
     </>
   )
 }
