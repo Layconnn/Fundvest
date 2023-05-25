@@ -61,7 +61,7 @@ function App() {
       <div className="section3">
         <div className="section3__box1">
           <div className="section3__box1__container"></div>
-          <p className="section3__box1__type"> 21% returns per annum</p>
+          <h4 className="section3__box1__type"> 21% returns per annum</h4>
           <p className="section3__box1__message">You get a 21 percent return on your investment per annum for any plan you suscribe to</p>
         </div>
         <div className="section3__box2">
