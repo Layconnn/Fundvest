@@ -3,8 +3,8 @@
     @media (max-width: 768px){
         display: flex;
         justify-content: space-between;
-        padding-left: 7em;
-        padding-right: 7em;
+        padding-left: 4em;
+        padding-right: 4em;
     @media (max-width: 500px){
         padding-left: 1em;
         padding-right: 1em;
@@ -12,6 +12,7 @@
         p{
             font-weight: 700;
             font-size: 0.6rem;
+            font-family: 'Montserrat';
             color: #000000;
             padding-top: 0.938em;
         }
@@ -34,7 +35,7 @@
     padding-right: 4em;
     margin-top: 4em;
     @media (max-width: 768px){
-        padding: 0 7rem;
+        padding: 0 4rem;
         margin-top: 2rem;
     }
     @media (max-width: 500px){
@@ -175,11 +176,12 @@
                 font-weight: 400;
                 font-size: 1rem;
                 line-height: 1.75rem;
+                font-family: 'Inter';
                 max-width: 28rem;
                 color: #808080;
                 @media (max-width:1024px){
                     font-size: 0.8rem;
-                    line-height: 1.4rem;
+                    line-height: 1rem;
                     max-width: 25rem;
                 }
                 @media (max-width: 768px){
@@ -289,6 +291,7 @@
             font-size: 1.125rem;
             line-height: 2rem;
             color: #18191F;
+            font-family: 'Inter';
             max-width: 35.813rem;
             margin-top: 0;
             @media (max-width: 1024px){
@@ -679,12 +682,13 @@
             font-size: 2.25rem;
             line-height: 4rem;
             color: #18947F;
+            font-family: 'Inter';
             max-width: 31.875rem;
             margin-bottom: 0;
             @media (max-width: 830px){
                 font-size: 1.6rem;
                 max-width: 23.875rem;
-                line-height: 3rem;
+                line-height: 2rem;
             }
             @media (max-width:500px){
                 font-size: 1rem;
@@ -696,12 +700,13 @@
             font-weight: 400;
             font-size: 1.125rem;
             line-height: 2rem;
+            font-family: 'Inter';
             color: #18191F;
             max-width: 27.813rem;
             margin-top: 0;
             @media (max-width: 830px){
                 font-size: 0.6rem;
-                line-height: 2rem;
+                line-height: 1rem;
                 max-width: 19.813rem
             }
             @media (max-width:500px){
@@ -977,7 +982,7 @@
     padding: 2rem 4rem 2rem;
     margin-top: 2rem;
     @media (max-width: 768px){
-        padding: 2em 0em;
+        padding: 2em 3em;
     }
     &__bottom{
         display: flex;
@@ -998,6 +1003,7 @@
             &__gee{
                 max-width: 23.5rem;
                 font-weight: 400;
+                font-family: 'Inter';
                 font-size: 1rem;
                 line-height: 2rem;
                 color: #E6E6E6;
@@ -1029,12 +1035,14 @@
             &__one{
                 h6{
                     color: white;
+                    font-family: 'Inter';
                     @media (max-width: 600px){
                         font-size: 0.5rem;
                     }
                 }
                 p{
                     font-weight: 400;
+                    font-family: 'Inter';
                     font-size: 1rem;
                     color: #E6E6E6;
                     @media (max-width: 1024px){
@@ -1048,6 +1056,7 @@
             &__two{
                 h6{
                     color: white;
+                    font-family: 'Inter';
                     @media (max-width: 600px){
                         font-size: 0.5rem;
                     }
@@ -1056,6 +1065,7 @@
                     font-weight: 400;
                     font-size: 1rem;
                     color: #E6E6E6;
+                    font-family: 'Inter';
                     @media (max-width: 1024px){
                         font-size: 0.6rem;
                     }
@@ -1067,6 +1077,7 @@
             &__three{
                 h6{
                     color: white;
+                    font-family: 'Inter';
                     @media (max-width: 600px){
                         font-size: 0.5rem;
                     }
@@ -1075,6 +1086,7 @@
                     font-weight: 400;
                     font-size: 1rem;
                     color: #E6E6E6;
+                    font-family: 'Inter';
                     @media (max-width: 1024px){
                         font-size: 0.6rem;
                     }
